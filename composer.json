@@ -1,0 +1,30 @@
+{
+    "name": "sstutz/casbin",
+    "description": "",
+    "keywords": [],
+    "license": "",
+    "authors": [
+        {
+            "name": "Stutz",
+            "email": "stefan@stutz.io"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.1",
+        "psr/log": "^1.0"
+    },
+	"require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+	"autoload": {
+        "psr-4": {
+            "Casbin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
